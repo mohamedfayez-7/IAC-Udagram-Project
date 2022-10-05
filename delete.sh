@@ -1,0 +1,1 @@
+aws --profile mohamed cloudformation delete-stack --stack-name $1
