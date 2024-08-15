@@ -30,5 +30,15 @@ udagr-WebAp-1QDNOJC70UQDR-81016286.us-east-1.elb.amazonaws.com
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
+   
+2. **Deploy the CloudFormation template:**
+   Navigate to the AWS Management Console.
+   You can go to the CloudFormation service.
+   Upload the template file and deploy it.
 
+2. **Access the Application:**
+   After creating the stack, find the Load Balancer's DNS name in the CloudFormation outputs.
+   Visit the DNS name in your browser to access the application
 
+**Conclusion**
+This infrastructure ensures that the web application is secure, scalable, and highly available. The use of AWS services like Auto Scaling, Load Balancer, and NAT Gateway ensures that the application can handle varying levels of traffic while maintaining performance and security.
